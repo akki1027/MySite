@@ -54,10 +54,20 @@ header {
 	color: white;
 }
 
+ul {
+	list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #FAFAFA;
 }
+
+a:hover{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
 
 .nav-list {
     width: 120px;
@@ -185,8 +195,8 @@ a {
 
 
 /*Profile*/
-.profile {
-	background-color: #ECEFF1
+#profile {
+	background-color: #ECEFF1;
 }
 
 .feature-title {
@@ -280,4 +290,36 @@ footer {
 
 #copyright {
 	text-align: center;
+}
+
+@media screen and (max-width:767px) {
+
+section {
+	width: 100%;
+	}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	}
+.portfolio-image {
+	float: none;
+	margin: 0 auto;
+	}
+.portfolio-image:nth-child(3) {
+	margin: 0 auto;
+	}
+.portfolio-image:nth-child(6) {
+	margin: 0 auto;
+	}
+
+.left-content {
+	width: 90%;
+	float: none;
+	}
+
+.right-content {
+	width: 90%;
+	float: none;
+	}
 }
