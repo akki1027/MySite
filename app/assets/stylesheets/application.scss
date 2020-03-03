@@ -39,6 +39,13 @@ body {
 
 
 /*header*/
+
+.logo {
+	height: 70px;
+	width: 156px;
+	float: left;
+}
+
 header {
 	width: 100%;
 	height: 70px;
@@ -59,14 +66,15 @@ header {
 	width: 100%;
 	height: 650px;
 	text-align: center;
-	background-image: url("../img/mv.png");
+	background-image: url('img/mv.png');
 	background-size: cover;
 	background-position: center;
+	color: white;
 }
 
 #mv-title {
 	padding-top: 200px;
-	font-size: 64px;
+	font-size: 64px
 }
 
 
@@ -100,22 +108,22 @@ header {
 }
 
 .img1 {
-	background-image: url("../img/sketch.jpg");
+	background-image: url("img/sketch.jpg");
 }
 .img2 {
-	background-image: url("../img/websuku.png");
+	background-image: url("img/websuku.png");
 }
 .img3 {
-	background-image: url("../img/write.png");
+	background-image: url("img/write.jpg");
 }
 .img4 {
-	background-image: url("../img/webcamp.png");
+	background-image: url("img/webcamp.png");
 }
 .img5 {
-	background-image: url("../img/talk.png");
+	background-image: url("img/talk.jpg");
 }
 .img6 {
-	background-image: url("../img/webcamp-mother");
+	background-image: url("img/webcamp-mother");
 }
 
 
