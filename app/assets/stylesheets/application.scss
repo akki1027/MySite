@@ -95,9 +95,9 @@ header {
 }
 
 .portfolio-images {
-	width: 920px;
     padding: 30px 0 90px 0;
     margin: 0 auto;
+    width: 920px;
 }
 
 .portfolio-image {
@@ -111,6 +111,14 @@ header {
 
 .portfolio-image:nth-child(-n+3) {
 	margin-top: 0;
+}
+
+.portfolio-image:nth-child(3) {
+	margin-right: 0;
+}
+
+.portfolio-image:nth-child(6) {
+	margin-right: 0;
 }
 
 .img1 {
