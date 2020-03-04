@@ -344,6 +344,7 @@ section {
 	border: 1px solid white;
 	float: right;
 	margin-top: 15px;
+	z-index: 2;
 }
 
 .menu-bar {
@@ -382,9 +383,7 @@ section {
 }
 
 #sp-menu {
-	width: 120px;
-    padding: 0 30px;
-    top: 0;
+    top: 70px;
     left: 0;
     width: 100%;
     min-height: 100%;
@@ -392,6 +391,7 @@ section {
     text-align: center;
     padding: 20px;
     font-size: 25px;
+    z-index: 1;
 }
 
 /*Portfolio*/
