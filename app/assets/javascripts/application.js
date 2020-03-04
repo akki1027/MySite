@@ -16,3 +16,13 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require_tree .
+$(document).ready(function () {
+	$(function(){
+	$('.menu-box').on('click', function(){
+		$(this).toggleClass('active');
+		$('#sp-menu').fadeToggle();
+		return false;
+	});
+});
+});
+
