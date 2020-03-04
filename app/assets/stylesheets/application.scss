@@ -292,6 +292,8 @@ footer {
 	text-align: center;
 }
 
+
+/*Responsive*/
 @media screen and (max-width:767px) {
 
 section {
@@ -302,6 +304,30 @@ section {
 	width: 90%;
 	margin: 0 auto;
 	}
+
+.left-content {
+	width: 100%;
+	float: none;
+	}
+
+.right-content {
+	width: 100%;
+	float: none;
+	text-align: center;
+	}
+
+
+/*Header*/
+.logo {
+	height: 50px;
+	float: none;
+}
+
+/*Portfolio*/
+.portfolio-images {
+	width: 100%;
+	}
+
 .portfolio-image {
 	float: none;
 	margin: 0 auto;
@@ -313,13 +339,31 @@ section {
 	margin: 0 auto;
 	}
 
-.left-content {
-	width: 90%;
+
+/*Feature*/
+.strength {
 	float: none;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
 	}
 
-.right-content {
-	width: 90%;
-	float: none;
+.strength:nth-child(3) {
+	padding-bottom: 90px;
+}
+
+/*Profile*/
+.profile-group {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-p {
+	text-align: center;
+}
+
+/*Contact*/
+.contact-group {
+	width: 100%;
 	}
 }
