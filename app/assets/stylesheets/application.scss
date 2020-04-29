@@ -92,7 +92,7 @@ a:hover{
 	width: 100%;
 	height: 650px;
 	text-align: center;
-	background-image: url('img/mv.png');
+	background-image: image-url('img/mv.png');
 	background-size: cover;
 	background-position: center;
 	color: white;
@@ -154,22 +154,22 @@ a:hover{
 }
 
 .img1 {
-	background-image: url("img/sketch.jpg");
+	background-image: image-url("img/sketch.jpg");
 }
 .img2 {
-	background-image: url("img/websuku.png");
+	background-image: image-url("img/websuku.png");
 }
 .img3 {
-	background-image: url("img/write.jpg");
+	background-image: image-url("img/write.jpg");
 }
 .img4 {
-	background-image: url("img/webcamp.png");
+	background-image: image-url("img/webcamp.png");
 }
 .img5 {
-	background-image: url("img/talk.jpg");
+	background-image: image-url("img/talk.jpg");
 }
 .img6 {
-	background-image: url("img/webcamp-mother");
+	background-image: image-url("img/webcamp-mother");
 }
 
 
@@ -239,7 +239,7 @@ a:hover{
 }
 
 .profile-pic {
-	background-image: url("img/my-icon.jpg");
+	background-image: image-url("img/my-icon.jpg");
 	border-radius: 50%;
 	width: 250px;
 	height: 250px;
